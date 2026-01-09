@@ -1,0 +1,13 @@
+[out:json];
+
+area["name"="Санкт-Петербург"]["boundary"="administrative"]->.spb;
+
+(
+  node["tourism"](area.spb);
+  node["historic"](area.spb);
+  node["amenity"="museum"](area.spb);
+  node["amenity"="place_of_worship"](area.spb);
+  node["leisure"~"park|garden|zoo"](area.spb);
+  node["tourism"="viewpoint"](area.spb);
+);
+out body;
