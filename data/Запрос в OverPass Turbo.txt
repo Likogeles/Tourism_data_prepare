@@ -11,3 +11,17 @@ area["name"="Санкт-Петербург"]["boundary"="administrative"]->.spb;
   node["tourism"="viewpoint"](area.spb);
 );
 out body;
+
+[out:json];
+
+area["name"="Москва"]["boundary"="administrative"]->.msc;
+
+(
+  node["tourism"](area.msc);
+  node["historic"](area.msc);
+  node["amenity"="museum"](area.msc);
+  node["amenity"="place_of_worship"](area.msc);
+  node["leisure"~"park|garden|zoo"](area.msc);
+  node["tourism"="viewpoint"](area.msc);
+);
+out body;
