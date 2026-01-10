@@ -49,14 +49,14 @@ prefs = {
     'binoculars': 2,
     'information': 2,
 
-    # Питание и отдых (утилитарно)
+    # Питание и отдых
     'cafe': 2,
     'restaurant': 2,
     'bench': 1,
     'garden': 1,
     'fountain': 1,
 
-    # Ночлег (нейтрально)
+    # Ночлег
     'hotel': 1,
     'hostel': 1,
     'guest_house': 1,
@@ -68,7 +68,7 @@ prefs = {
     'caravan_site': 0,
     'lean_to': 0,
 
-    # Развлечения (не приоритет)
+    # Развлечения
     'amusement_arcade': 1,
     'theme_park': 0,
     'water_park': 0,
